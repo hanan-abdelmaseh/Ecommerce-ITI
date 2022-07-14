@@ -9,6 +9,7 @@ export class ProductService {
 
   //to get all data
   getAllProducts(){
+    //return
     return this._Http.get('https://fakestoreapi.com/products');
   }
   //get all categories
