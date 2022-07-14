@@ -1,18 +1,29 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './Components/header/header.component';
+import { RouterModule } from '@angular/router';
+import { SpinnerComponent } from './Components/spinner/spinner.component';
+import { SelectComponent } from './Components/select/select.component';
+//import { HttpClientModule } from '@angular/common/http';
 
 
 
 @NgModule({
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    SpinnerComponent,
+    SelectComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
+    // HttpClientModule
+    
   ]
   ,exports:[
-    HeaderComponent
+    HeaderComponent,
+    SpinnerComponent,
+    SelectComponent
   ]
 })
 export class SharedModule { }

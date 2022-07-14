@@ -1,0 +1,7 @@
+<div class="row mt-5">
+    <label>{{Title}}</label>
+    <select class="form-control"  (change)="getData($event)">
+      <option selected value="all">All</option>
+      <option value="{{data}}" *ngFor="let data of dataList">{{data}}</option>
+    </select>
+</div>

@@ -1,0 +1,8 @@
+.card img{
+    height:200px;
+    width: 75%;
+    margin: auto;
+}
+.card:hover{
+    transform:scale(1.1);
+}
