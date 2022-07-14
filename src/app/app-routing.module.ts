@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CartComponent } from './carts/Components/cart/cart.component';
 import { HomeComponent } from './Components/home/home.component';
 import { NotFoundComponent } from './Components/not-found/not-found.component';
 import { ProductsComponent } from './products/Components/products/products.component';
-
+import { CartComponent } from './carts/Components/cart/cart.component';
 
 
 
